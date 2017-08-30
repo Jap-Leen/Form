@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+<title>webd</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style> 
+.container{
+width: 650px;
+height: 500px;
+border: 3px solid orange;
+box-sizing: border-box;
+border-radius: 35px 5px 35px 35px;
+}
+</style>
+</head>
+
+<body> 
+<br>
+<br>
+<div class="container" >
+ <div style="width: 100%">
+        <div style="width: 50%; float: left; display: inline-block;">
+              
+<form>
+
+<br>
+<font color= "orange"> <b>POST YOUR REQUIREMENT </b> </font>
+<br><br>
+Please fill all the required fields and try to describe complete detail about your requirement.
+<br>
+<br>
+<br>
+<b> Select Category (required) </b>
+<br>
+<select name="Category" style="width: 250px;" >
+<option value= "Boys PG | Boys Hostel"> Boys PG|Boys Hostel </option>
+<option value= "Girls PG | Girls Hostel"> Girls PG|Girls Hostel </option>
+</select>
+<br>
+<br>
+
+<b> Location (required) </b>
+<br>
+<input type= "text", style="width: 250px;", name= "Location", value= "Enter your Preferred Locations">
+<br>
+<br>
+<b> Budget (required) </b>
+<br>
+<input type= "text", style="width: 250px;",  name= "Budget", value= "Enter your Budget">
+<br>
+<br>
+<b> Mobile (required) </b>
+<br>
+<input type= "text", style="width: 250px;", name= "Mobile", value= "Enter your Mobile Number">
+<br>
+<br>
+<b> Your Email </b>
+<br>
+<input type= "text", style="width: 250px;", name= "Email", value= "Enter Email address if any">
+<br>
+
+<br>
+</div>
+<div style="width: 50%; display: inline-block;">
+<br>
+
+<br><br><br><br><br><br>
+<b> Description(required) </b><br>
+
+<textarea name="Comment"id="Comment" rows="5"cols="40">Example: I need a single separate room for two girls. There should be a separate kitchen and let-bath. We are studying in college etc...</textarea>
+
+<br>
+<br>
+<button type="button" class="btn btn-warning" onclick="alert('Thank You! We will be communicating with you shortly!')">Post Your Requirement</button>
+<br>
+<br>
+<br>
+</div>
+</div>
+</form>
+</body>
+</html>
